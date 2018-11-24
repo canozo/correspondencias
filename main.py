@@ -7,16 +7,16 @@ if __name__ == '__main__':
   opcion = input('[1-4]: ')
 
   if opcion == '1':
-    from directa import *
+    from utils.directa import *
 
   elif opcion == '2':
-    from asociativa_secuencial import *
+    from utils.asociativa_secuencial import *
 
   elif opcion == '3':
-    from asociativa_conjuntos_secuencial import *
+    from utils.asociativa_conjuntos_secuencial import *
 
   elif opcion == '4':
-    from lru import *
+    from utils.lru import *
 
   if opcion in ('1', '2', '3', '4'):
     run(prueba=False)
